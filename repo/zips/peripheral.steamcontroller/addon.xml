@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="peripheral.steamcontroller" version="20.0.2.1" name="Steam controller driver" provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.binary.global.main" minversion="2.0.3" version="2.0.3"/>
+    <import addon="kodi.binary.instance.peripheral" minversion="3.0.0" version="3.0.2"/>
+  </requires>
+  <extension point="kodi.peripheral" provides_joysticks="true" provides_buttonmaps="false" library_linux="peripheral.steamcontroller.so.20.0.2"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Steam controller driver</summary>
+    <description lang="en_GB">This driver enables input from the Steam controller. It is a work-in-progress, and controllers do not work yet.</description>
+    <license>GPL-2.0-or-later</license>
+    <source>https://github.com/kodi-game/peripheral.steamcontroller</source>
+    <platform/>
+  </extension>
+</addon>
