@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <addons><addon id="peripheral.steamcontroller" version="20.0.2.1" name="Steam controller driver" provider-name="Team Kodi">
   <requires>
-    <import addon="kodi.binary.global.main" minversion="2.0.3" version="2.0.3" />
+    <import addon="kodi.binary.global.main" minversion="2.0.0" version="2.0.2" />
     <import addon="kodi.binary.instance.peripheral" minversion="3.0.0" version="3.0.2" />
   </requires>
   <extension point="kodi.peripheral" provides_joysticks="true" provides_buttonmaps="false" library_linux="peripheral.steamcontroller.so.20.0.2" />
