@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.tijavo" name="Tijavo Repository" version="1.2" provider-name="tijavo">
+<addon id="repository.tijavo" name="Tijavo Repository" version="1.3" provider-name="tijavo">
     <extension point="xbmc.addon.repository" name="Example Repository">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/tijavo/repository.tijavo/main/repo/zips/addons.xml</info>
